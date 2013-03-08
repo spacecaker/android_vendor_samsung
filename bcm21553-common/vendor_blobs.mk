@@ -127,7 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/bcm21553-common/proprietary/system/etc/wifi/bcm4330_sta.bin:system/etc/wifi/bcm4330_sta.bin \
     vendor/samsung/bcm21553-common/proprietary/system/etc/wifi/RC_248_WPA.bin:system/etc/wifi/RC_248_WPA.bin \
     vendor/samsung/bcm21553-common/proprietary/system/etc/wifi/bcm4330_mfg.bin:system/etc/wifi/bcm4330_mfg.bin \
-    vendor/samsung/bcm21553-common/proprietary/system/bin/BCM4330B1_002.001.003.0485.0506.hcd:system/bin/BCM4330B1_002.001.003.0485.0506.hcd 
+    vendor/samsung/bcm21553-common/proprietary/system/bin/BCM4330B1_002.001.003.0609.0614.hcd:system/bin/BCM4330B1_002.001.003.0609.0614.hcd 
 
 # Ril
 PRODUCT_COPY_FILES += \
