@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/cooperve/proprietary/system/lib/libarccamera.so:system/lib/libarccamera.so \
     vendor/samsung/cooperve/proprietary/system/lib/libbrcmjpeg.so:system/lib/libbrcmjpeg.so \
     vendor/samsung/cooperve/proprietary/system/lib/libcamera.so:system/lib/libcamera.so \
+    vendor/samsung/cooperve/proprietary/system/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/samsung/cooperve/proprietary/system/lib/libCaMotion.so:system/lib/libCaMotion.so \
     vendor/samsung/cooperve/proprietary/system/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
     vendor/samsung/cooperve/proprietary/system/lib/libseccamera.so:system/lib/libseccamera.so \

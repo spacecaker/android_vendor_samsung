@@ -35,21 +35,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/bcm21553-common/proprietary/system/lib/hw/lights.bcm21553.so:system/lib/hw/lights.bcm21553.so \
     vendor/samsung/bcm21553-common/proprietary/system/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/samsung/bcm21553-common/proprietary/system/lib/libaccsensorcal.so:system/lib/libaccsensorcal.so \
-    vendor/samsung/bcm21553-common/proprietary/system/bin/memsicd:system/bin/memsicd
 
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/bcm21553-common/proprietary/system/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
     vendor/samsung/bcm21553-common/proprietary/system/etc/gps/glconfig2075.xml:system/etc/gps/glconfig2075.xml \
     vendor/samsung/bcm21553-common/proprietary/system/etc/gps/glconfig4751.xml:system/etc/gps/glconfig4751.xml \
-    vendor/samsung/bcm21553-common/proprietary/system/bin/gps.cer:system/bin/gps.cer \
-    vendor/samsung/bcm21553-common/proprietary/system/bin/glgps:system/bin/glgps
 
 # Wifi
 PRODUCT_COPY_FILES += \
     vendor/samsung/bcm21553-common/proprietary/system/etc/wifi/bcm4330_aps.bin:system/etc/wifi/bcm4330_aps.bin \
     vendor/samsung/bcm21553-common/proprietary/system/etc/wifi/bcm4330_sta.bin:system/etc/wifi/bcm4330_sta.bin \
-    vendor/samsung/bcm21553-common/proprietary/system/etc/wifi/nvram.txt:system/etc/wifi/nvram.txt
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
