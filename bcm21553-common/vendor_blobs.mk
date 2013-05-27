@@ -28,7 +28,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/bcm21553-common/proprietary/system/lib/hw/gps.bcm21553.so:system/lib/hw/gps.bcm21553.so \
     vendor/samsung/bcm21553-common/proprietary/system/bin/glgps:system/bin/glgps \
     vendor/samsung/bcm21553-common/proprietary/system/bin/gps.cer:system/bin/gps.cer \
-    vendor/samsung/bcm21553-common/proprietary/system/lib/libsoc.so:system/lib/libsoc.so
+    vendor/samsung/bcm21553-common/proprietary/system/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
+    vendor/samsung/bcm21553-common/proprietary/system/etc/gps/glconfig2075.xml:system/etc/gps/glconfig2075.xml \
+    vendor/samsung/bcm21553-common/proprietary/system/etc/gps/glconfig4751.xml:system/etc/gps/glconfig4751.xml \
+    vendor/samsung/bcm21553-common/proprietary/system/lib/libsoc.so:system/lib/libsoc.so \
 
 # Sensores
 PRODUCT_COPY_FILES += \
@@ -37,13 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/bcm21553-common/proprietary/system/lib/libaccsensorcal.so:system/lib/libaccsensorcal.so \
     vendor/samsung/bcm21553-common/proprietary/system/bin/memsicd:system/bin/memsicd
 
-# GPS
-PRODUCT_COPY_FILES += \
-    vendor/samsung/bcm21553-common/proprietary/system/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
-    vendor/samsung/bcm21553-common/proprietary/system/etc/gps/glconfig2075.xml:system/etc/gps/glconfig2075.xml \
-    vendor/samsung/bcm21553-common/proprietary/system/etc/gps/glconfig4751.xml:system/etc/gps/glconfig4751.xml \
-    vendor/samsung/bcm21553-common/proprietary/system/bin/gps.cer:system/bin/gps.cer \
-    vendor/samsung/bcm21553-common/proprietary/system/bin/glgps:system/bin/glgps
 
 # Wifi
 PRODUCT_COPY_FILES += \
