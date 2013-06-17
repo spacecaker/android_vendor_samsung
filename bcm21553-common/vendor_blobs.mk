@@ -44,7 +44,12 @@ PRODUCT_COPY_FILES += \
 # Wifi
 PRODUCT_COPY_FILES += \
     vendor/samsung/bcm21553-common/proprietary/system/etc/wifi/bcm4330_aps.bin:system/etc/wifi/bcm4330_aps.bin \
-    vendor/samsung/bcm21553-common/proprietary/system/etc/wifi/bcm4330_sta.bin:system/etc/wifi/bcm4330_sta.bin \
+    vendor/samsung/bcm21553-common/proprietary/system/etc/wifi/bcm4330_mfg.bin:system/etc/wifi/bcm4330_mfg.bin \
+	vendor/samsung/bcm21553-common/proprietary/system/etc/wifi/bcm4330_sta.bin:system/etc/wifi/bcm4330_sta.bin \
+    vendor/samsung/bcm21553-common/proprietary/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+	vendor/samsung/bcm21553-common/proprietary/system/etc/wifi/RC_248_WPA.bin:system/etc/wifi/RC_248_WPA.bin \	
+	vendor/samsung/bcm21553-common/proprietary/system/etc/wifi/wifi.conf:system/etc/wifi/wifi.conf \
+    vendor/samsung/bcm21553-common/proprietary/system/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \	
     vendor/samsung/bcm21553-common/proprietary/system/etc/wifi/nvram.txt:system/etc/wifi/nvram.txt
 
 # Bluetooth
